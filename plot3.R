@@ -13,7 +13,8 @@ d1$Sub_metering_3 <- as.numeric(d1$Sub_metering_3)
 png(filename = "plot3.png", ## the target png
     width = 480,
     height = 480,
-    units = "px") 
+    units = "px",
+    bg = "transparent") 
 
 ## produce multiple plots on same axes
 plot(datetimes, d1$Sub_metering_1, 
