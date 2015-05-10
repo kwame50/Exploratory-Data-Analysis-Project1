@@ -18,7 +18,8 @@ d1$Global_reactive_power <- as.numeric(d1$Global_reactive_power)
 png(filename = "plot4.png", ## the target png
     width = 480,
     height = 480,
-    units = "px") 
+    units = "px",
+    bg = "transparent") 
 
 ## produce 4 plots on a 2x2 grid
 par(mfcol = c(2,2)) ## 2rows 2cols fill column-wise
