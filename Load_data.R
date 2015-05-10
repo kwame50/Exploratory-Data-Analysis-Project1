@@ -1,4 +1,4 @@
-## This file is for loading the large dataset.
+## This file is for loading the large household power consumption dataset.
 ## read the data
 setwd("C:/Users/Daddy 2/Documents/Data Analysis")
 data <- read.table("household_power_consumption.txt",
