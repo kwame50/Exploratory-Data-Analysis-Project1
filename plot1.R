@@ -7,7 +7,8 @@ source("Load_data.R")
 png(filename = "plot1.png", ## the target png
     width = 480,
     height = 480,
-    units = "px") 
+    units = "px",
+    bg = "transparent") 
 
 ## plot is a red histogram of global active power
 hist(d1$Global_active_power, 
